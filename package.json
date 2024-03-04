@@ -1,0 +1,29 @@
+{
+ "version": "8.1.1",
+ "name": "@stroeer/stroeer-videoplayer",
+ "description": "Ströer Videoplayer Framework",
+ "main": "dist/stroeervideoplayer.umd.js",
+ "module": "dist/stroeervideoplayer.mjs",
+ "files": [
+  "dist",
+  "types"
+ ],
+ "types": "types/types.d.ts",
+ "scripts": {
+  "build": "tsc && vite build",
+  "stylelint": "stylelint 'src/**/*.scss'",
+  "stylelint:fix": "stylelint --fix 'src/**/*.scss'",
+  "lint": "eslint src/*.ts src/**/*.ts",
+  "lint:fix": "eslint --fix src/*.ts src/**/*.ts",
+  "test": "jest"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git@github.com:stroeer/video.git"
+ },
+ "author": "Marco Kellershoff <marco@kellershoff.net>",
+ "license": "MIT",
+ "devDependencies": {
+  "hls.js": "1.4.5"
+ }
+}
