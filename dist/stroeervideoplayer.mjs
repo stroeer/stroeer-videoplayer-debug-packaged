@@ -43,7 +43,7 @@ const gr = (a) => {
     "color:" + e.fg + ";background:" + e.bg + ";",
     ...i
   ), !0);
-}, mr = () => !1, Ke = "8.1.1";
+}, mr = () => !1, Ke = "0.0.1";
 function pr(a) {
   return a && a.__esModule && Object.prototype.hasOwnProperty.call(a, "default") ? a.default : a;
 }
