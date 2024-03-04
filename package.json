@@ -1,5 +1,5 @@
 {
- "version": "8.1.1",
+ "version": "0.0.1",
  "name": "@stroeer/stroeer-videoplayer",
  "description": "Ströer Videoplayer Framework",
  "main": "dist/stroeervideoplayer.umd.js",
